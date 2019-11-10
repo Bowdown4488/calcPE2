@@ -17,8 +17,6 @@ public class calc extends JFrame{
     private JLabel answer;
     private JPanel panel;
 
-
-
     public calc (String title){
         super(title);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -34,6 +32,14 @@ public class calc extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 String str = input.getText().toString().trim();
                 initTokens(str);
+//                try {
+//                    SyntaxErrorListener listener = new SyntaxErrorListener();
+//                    listener.isEmpty();
+//                    JOptionPane.showMessageDialog(null,"Invalid Input Found");
+//                }catch(ArrayIndexOutOfBoundsException er){
+//                    recursiveDescent rd = new recursiveDescent(str);
+//                    answer.setText("Output: " + str);
+//                }
                 recursiveDescent rd = new recursiveDescent(str);
                 answer.setText("Output: " + str);
             }
@@ -75,7 +81,6 @@ public class calc extends JFrame{
     public static void initTokens (String str){
         CharStream c = fromString(str);
         calculatorLexer lexer = new calculatorLexer(c);
-
         Token token = lexer.nextToken();
         ArrayList<Token> tokens = new ArrayList<>();
         ArrayList<String> tokentypes = new ArrayList<>();
