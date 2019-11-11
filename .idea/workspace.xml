@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6af08fca-a5dc-4bc9-9109-15aabeff042e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntaxError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SyntaxErrorListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calc/META-INF/calc.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calc/calc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calc/calc$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calc/calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calc/calc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calc/recursiveDescent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calc/recursiveDescent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatorParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/calculatorParser.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorParser.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorParser.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorParser.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorParser.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorParserBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorParserBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorParserBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorParserBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorParserListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorParserListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/calculatorParserVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/calculatorParserVisitor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +94,7 @@
       <workItem from="1573377851210" duration="9955000" />
       <workItem from="1573400261890" duration="5736000" />
       <workItem from="1573410017775" duration="785000" />
+      <workItem from="1573442207162" duration="1795000" />
     </task>
     <servers />
   </component>

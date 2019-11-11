@@ -1,4 +1,4 @@
-// Generated from C:/Users/Paolo/IdeaProjects/calc\calculatorParser.g4 by ANTLR 4.7.2
+// Generated from C:/Users/DELL/IdeaProjects/calcPE2\calculatorParser.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
 /**
@@ -16,12 +16,19 @@ public class calculatorParserBaseVisitor<T> extends AbstractParseTreeVisitor<T> 
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitBeginEquation(calculatorParser.BeginEquationContext ctx) { return visitChildren(ctx); }
+	@Override public T visitExpression(calculatorParser.ExpressionContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitExpression(calculatorParser.ExpressionContext ctx) { return visitChildren(ctx); }
+	@Override public T visitTerm(calculatorParser.TermContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
+	@Override public T visitFact(calculatorParser.FactContext ctx) { return visitChildren(ctx); }
 }

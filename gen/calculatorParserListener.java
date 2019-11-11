@@ -1,4 +1,4 @@
-// Generated from C:/Users/Paolo/IdeaProjects/calc\calculatorParser.g4 by ANTLR 4.7.2
+// Generated from C:/Users/DELL/IdeaProjects/calcPE2\calculatorParser.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -6,16 +6,6 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  * {@link calculatorParser}.
  */
 public interface calculatorParserListener extends ParseTreeListener {
-	/**
-	 * Enter a parse tree produced by {@link calculatorParser#beginEquation}.
-	 * @param ctx the parse tree
-	 */
-	void enterBeginEquation(calculatorParser.BeginEquationContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link calculatorParser#beginEquation}.
-	 * @param ctx the parse tree
-	 */
-	void exitBeginEquation(calculatorParser.BeginEquationContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link calculatorParser#expression}.
 	 * @param ctx the parse tree
@@ -26,4 +16,24 @@ public interface calculatorParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitExpression(calculatorParser.ExpressionContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link calculatorParser#term}.
+	 * @param ctx the parse tree
+	 */
+	void enterTerm(calculatorParser.TermContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link calculatorParser#term}.
+	 * @param ctx the parse tree
+	 */
+	void exitTerm(calculatorParser.TermContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link calculatorParser#fact}.
+	 * @param ctx the parse tree
+	 */
+	void enterFact(calculatorParser.FactContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link calculatorParser#fact}.
+	 * @param ctx the parse tree
+	 */
+	void exitFact(calculatorParser.FactContext ctx);
 }

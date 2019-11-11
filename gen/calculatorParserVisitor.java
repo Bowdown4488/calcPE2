@@ -1,4 +1,4 @@
-// Generated from C:/Users/Paolo/IdeaProjects/calc\calculatorParser.g4 by ANTLR 4.7.2
+// Generated from C:/Users/DELL/IdeaProjects/calcPE2\calculatorParser.g4 by ANTLR 4.7.2
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**
@@ -10,15 +10,21 @@ import org.antlr.v4.runtime.tree.ParseTreeVisitor;
  */
 public interface calculatorParserVisitor<T> extends ParseTreeVisitor<T> {
 	/**
-	 * Visit a parse tree produced by {@link calculatorParser#beginEquation}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitBeginEquation(calculatorParser.BeginEquationContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link calculatorParser#expression}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitExpression(calculatorParser.ExpressionContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link calculatorParser#term}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitTerm(calculatorParser.TermContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link calculatorParser#fact}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitFact(calculatorParser.FactContext ctx);
 }
